@@ -45,7 +45,7 @@ if Config.BOT_TOKEN and Config.OWNER_ID:
 Hello {f_name},
 Nice To Meet You! I'm **{bot.first_name}** A Bot.
 
-        <i><b>Powered by</i> [USERGE-X](https://t.me/x_xtests)</b>
+        <i><b>Powered by</i> [GANGSTER](https://t.me/gangsterisback)</b>
 
 <b>My Master is: {master.first_name}</b>
 <i>You can contact my <b>Master</b> and checkout the <b>Repo</b> For more info.</i>
@@ -127,7 +127,7 @@ Nice To Meet You! I'm **{bot.first_name}** A Bot.
                 caption=caption_text,
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("CONTACT", url=f"t.me/{u_n}"),
-                    InlineKeyboardButton("REPO", url="https://github.com/code-rgb/USERGE-X")],
+                    InlineKeyboardButton("GOD", url="https://t.me/gangsterisback")],
                     [InlineKeyboardButton("➕ ADD TO GROUP", callback_data="add_to_grp")
                     ]]
                 )
